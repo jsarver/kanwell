@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "kanwell"
+version = "0.1.0"
+description = ""
+authors = ["Josh Sarver <jsarver@lhs.org>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+cherpy = {git = "https://github.com/jsarver/cherpy.git"}
+nicegui = "^1.4.30"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
